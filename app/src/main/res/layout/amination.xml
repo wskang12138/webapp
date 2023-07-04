@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/splash_lt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/splash" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/main_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是主界面" />
+
+</LinearLayout>
